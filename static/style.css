@@ -1,0 +1,47 @@
+body {
+    background-color: #191616;
+    color: #e0e0e0;
+    font-family : 'Segoe UI', sans-serif;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #302d2d;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.chart-container {
+    background: #1a1a1a;
+    margin: 20px;
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+.indicator {
+    text-align: center;
+    padding: 10px;
+}
+.led-alert, .led-online {
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+    
